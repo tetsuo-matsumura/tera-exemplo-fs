@@ -1,8 +1,6 @@
 // Importamos a lib fs
 const fs = require('fs');
 
-//SalePrice,YearBuilt,YrSold,MonthSold,Size(sqf),Floor,HallwayType,HeatingType,AptManageType,N_Parkinglot(Ground),N_Parkinglot(Basement),TimeToBusStop,TimeToSubway,N_APT,N_manager,N_elevators,SubwayStation,N_FacilitiesNearBy(PublicOffice),N_FacilitiesNearBy(Hospital),N_FacilitiesNearBy(Dpartmentstore),N_FacilitiesNearBy(Mall),N_FacilitiesNearBy(ETC),N_FacilitiesNearBy(Park),N_SchoolNearBy(Elementary),N_SchoolNearBy(Middle),N_SchoolNearBy(High),N_SchoolNearBy(University),N_FacilitiesInApt,N_FacilitiesNearBy(Total),N_SchoolNearBy(Total)
-
 // Usamos ela pra abrir o arquivo 'output.csv' e guardá-lo como String na variável data
 // obs: O 'utf-8' é o "Encoding" da leitura, se não especificado, você vai armazenar os "binários" do arquivo na variável.
 let data = fs
